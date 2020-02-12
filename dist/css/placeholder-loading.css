@@ -52,8 +52,14 @@
   .ph-row .empty {
     background-color: rgba(255, 255, 255, 0); }
 
+.ph-col-1 {
+  flex: 0 0 8.33333%; }
+
 .ph-col-2 {
   flex: 0 0 16.66667%; }
+
+.ph-col-3 {
+  flex: 0 0 25%; }
 
 .ph-col-4 {
   flex: 0 0 33.33333%; }

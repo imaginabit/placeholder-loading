@@ -57,9 +57,14 @@
     background-color: rgba($ph-bg, 0);
   }
 }
-
+.ph-col-1 {
+  flex: 0 0 percentage(1 / 12);
+}
 .ph-col-2 {
   flex: 0 0 percentage(2 / 12);
+}
+.ph-col-3 {
+  flex: 0 0 percentage(3 / 12);
 }
 .ph-col-4 {
   flex: 0 0 percentage(4 / 12);
