@@ -44,13 +44,13 @@
   margin-bottom: ($ph-spacer / 2);
 
   div {
-    height: 10px;
+    height: $ph-height;
     margin-bottom: ($ph-spacer / 2);
     background-color: $ph-color;
   }
   .big,
   &.big div {
-    height: 20px;
+    height: ($ph-height*2);
     margin-bottom: $ph-spacer;
   }
   .empty {
